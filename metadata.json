@@ -1,0 +1,6 @@
+{
+  "name": "منصة التنمية الإنسانية بجنوب السودان | SSHDP",
+  "description": "منصة التنمية الإنسانية بجنوب السودان، منصة رائدة لدعم التعليم والتنمية المجتمعية وبناء القدرات والمبادرات الإنسانية نحو مجتمع أكثر تمكيناً وتنمية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

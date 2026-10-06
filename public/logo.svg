@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#166534" />
+      <stop offset="50%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#064e3b" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Outer background circle -->
+  <circle cx="256" cy="256" r="248" fill="#ffffff" stroke="url(#goldAccent)" stroke-width="6" />
+  
+  <!-- Outer Ring Band -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#primaryGreen)" stroke-width="14" />
+  <circle cx="256" cy="256" r="176" fill="none" stroke="url(#goldAccent)" stroke-width="3" stroke-dasharray="6,4" />
+
+  <!-- Inner Soft Radial Background -->
+  <circle cx="256" cy="256" r="170" fill="url(#warmLight)" />
+
+  <!-- Sun Rays of Hope & Enlightenment (Upper Half) -->
+  <g opacity="0.25">
+    <line x1="256" y1="130" x2="256" y2="100" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <line x1="220" y1="135" x2="200" y2="110" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <line x1="292" y1="135" x2="312" y2="110" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <line x1="190" y1="150" x2="165" y2="135" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <line x1="322" y1="150" x2="347" y2="135" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Central Symbolism: Hands Supporting Education & Sprouting Growth -->
+  <g id="center-icon" filter="url(#subtleShadow)">
+    
+    <!-- Open Book Base (Symbolizing Education & Knowledge) -->
+    <!-- Left page -->
+    <path d="M 256 300 C 230 280 180 275 140 285 C 135 305 135 330 140 345 C 180 335 230 340 256 360 Z" 
+          fill="#ffffff" stroke="#166534" stroke-width="4" />
+    <line x1="155" y1="305" x2="235" y2="295" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="155" y1="320" x2="235" y2="310" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="155" y1="335" x2="220" y2="325" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Right page -->
+    <path d="M 256 300 C 282 280 332 275 372 285 C 377 305 377 330 372 345 C 332 335 282 340 256 360 Z" 
+          fill="#ffffff" stroke="#166534" stroke-width="4" />
+    <line x1="277" y1="295" x2="357" y2="305" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="277" y1="310" x2="357" y2="320" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="292" y1="325" x2="357" y2="335" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Spine -->
+    <line x1="256" y1="298" x2="256" y2="362" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Sprouting Plant of Development Rising from Knowledge -->
+    <!-- Stem -->
+    <path d="M 256 295 Q 256 220 256 160" stroke="#15803d" stroke-width="6" stroke-linecap="round" fill="none" />
+    
+    <!-- Leaves -->
+    <!-- Top central leaf -->
+    <path d="M 256 150 C 240 130 240 105 256 95 C 272 105 272 130 256 150 Z" fill="url(#primaryGreen)" />
+    
+    <!-- Left Leaf -->
+    <path d="M 254 210 C 215 200 195 160 215 140 C 240 155 250 185 254 210 Z" fill="#16a34a" />
+    
+    <!-- Right Leaf -->
+    <path d="M 258 200 C 297 190 317 150 297 130 C 272 145 262 175 258 200 Z" fill="url(#primaryGreen)" />
+    
+    <!-- Golden Star of South Sudan / Hope at Apex -->
+    <polygon points="256,70 261,82 274,82 263,90 267,102 256,94 245,102 249,90 238,82 251,82" fill="url(#goldAccent)" />
+
+    <!-- Gentle Caring Hands Supporting Base -->
+    <!-- Left hand -->
+    <path d="M 125 365 C 150 405 210 425 252 425 C 240 415 220 405 205 385 C 180 380 145 375 125 365 Z" fill="#15803d" opacity="0.85" />
+    <!-- Right hand -->
+    <path d="M 387 365 C 362 405 302 425 260 425 C 272 415 292 405 307 385 C 332 380 367 375 387 365 Z" fill="#15803d" opacity="0.85" />
+  </g>
+
+  <!-- Circular Text In Ring -->
+  <!-- Top Arc for Arabic -->
+  <path id="textArcTop" d="M 68 256 A 188 188 0 0 1 444 256" fill="none" />
+  <text font-family="'Cairo', sans-serif" font-size="21.5" font-weight="bold" fill="#166534" letter-spacing="1">
+    <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">
+      منصة التنمية الإنسانية بجنوب السودان
+    </textPath>
+  </text>
+
+  <!-- Stars separator -->
+  <polygon points="56,256 59,263 66,263 60,268 62,275 56,270 50,275 52,268 46,263 53,263" fill="#d97706" />
+  <polygon points="456,256 459,263 466,263 460,268 462,275 456,270 450,275 452,268 446,263 453,263" fill="#d97706" />
+
+  <!-- Bottom Arc for English -->
+  <path id="textArcBottom" d="M 444 256 A 188 188 0 0 1 68 256" fill="none" />
+  <text font-family="'Plus Jakarta Sans', sans-serif" font-size="14.5" font-weight="700" fill="#166534" letter-spacing="2">
+    <textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">
+      SOUTH SUDAN HUMANITARIAN DEV PLATFORM
+    </textPath>
+  </text>
+</svg>
